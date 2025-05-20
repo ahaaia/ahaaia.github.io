@@ -1,4 +1,31 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# OS files
+.DS_Store
+*.log
+*.swp
+.env
+
+# Frontend
+node_modules/
+.next/
+out/
+.cache/
+.vercel
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+
+
+# Backups
+frontend/backups/
+
+# Extension files
+.specstory/
 
 # dependencies
 /node_modules
@@ -21,7 +48,6 @@
 /build
 
 # misc
-.DS_Store
 *.pem
 
 # debug
@@ -39,3 +65,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
