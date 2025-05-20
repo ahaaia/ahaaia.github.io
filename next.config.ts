@@ -1,4 +1,4 @@
-// import type { NextConfig } from "next";
+import type { NextConfig } from "next";
 
 // Redirect all paths to the landing page; 
 // this is untill we implement login to restrict access to protected routes
@@ -34,4 +34,25 @@
 //   },
 // };
 
-// export default nextConfig;
+const nextConfig: NextConfig = {
+  output: 'export',
+  // Uncomment and modify these if you're using a custom domain
+  // basePath: '',
+  // assetPrefix: '',
+  images: {
+    unoptimized: true,
+  },
+  // Uncomment and modify these if you need redirects
+  // async redirects() {
+  //   return [
+  //     {
+  //       source: '/', 
+  //       destination: '/landing',
+  //       permanent: false,
+  //     },
+  //     // ... other redirects
+  //   ];
+  // },
+};
+
+export default nextConfig;
