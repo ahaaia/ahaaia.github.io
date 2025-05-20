@@ -1,1 +1,1 @@
-[ahaia.ai](https://ahaia.ai)
+[ahaia.ai](https://www.ahaia.ai/)
