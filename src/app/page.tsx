@@ -1,7 +1,6 @@
 'use client';
 
 import { useEffect } from 'react';
-import Image from 'next/image';
 
 export default function LandingPage() {
   useEffect(() => {
@@ -50,7 +49,7 @@ export default function LandingPage() {
           </div>
           <div className="bg-gray-800/30 p-8 rounded-xl border border-gray-700/30">
             <h3 className="text-xl font-semibold mb-4 text-blue-400">Struggling to Focus?</h3>
-            <p className="text-gray-300">We've all been there - endless tabs, scattered notes, and zero progress. Ahaia brings everything together in one engaging platform.</p>
+            <p className="text-gray-300">We&apos;ve all been there - endless tabs, scattered notes, and zero progress. Ahaia brings everything together in one engaging platform.</p>
           </div>
           <div className="bg-gray-800/30 p-8 rounded-xl border border-gray-700/30">
             <h3 className="text-xl font-semibold mb-4 text-purple-400">Complex Content?</h3>
