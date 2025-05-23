@@ -32,17 +32,17 @@ export default function LandingPage() {
           <h1 className="text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
             Ahaia
           </h1>
-          <h1 className="text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+          {/* <h1 className="text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
             Learning Made Effortless
-          </h1>
+          </h1> */}
           <p className="text-2xl mb-8 text-gray-300">
-            The AI-powered platform that transforms how you learn
+            Reach the Aha! moment faster than ever before
           </p>
 
         </div>
 
         {/* Pain Points Section */}
-        <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto mb-20">
+        {/* <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto mb-20">
           <div className="bg-gray-800/30 p-8 rounded-xl border border-gray-700/30">
             <h3 className="text-xl font-semibold mb-4 text-blue-400">Limited Access to Quality Education?</h3>
             <p className="text-gray-300">Everyone deserves access to top-tier learning resources. Ahaia breaks down barriers by bringing expert knowledge and personalized guidance to learners everywhere.</p>
@@ -68,7 +68,7 @@ export default function LandingPage() {
             <p className="text-gray-300">Break free from traditional text-heavy lectures and embrace a modern approach that leverages the latest in AI and technology to ensure high retention rates.</p>
           </div>
 
-        </div>
+        </div> */}
 
         {/* Value Proposition */}
         <div className="max-w-4xl mx-auto text-center mb-20">
